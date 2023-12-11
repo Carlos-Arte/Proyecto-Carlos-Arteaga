@@ -1,0 +1,16 @@
+CRITICAL - 2023-12-11 00:36:38 --> Undefined variable $proveedores
+in APPPATH\Controllers\ProveedorController.php on line 25.
+ 1 APPPATH\Controllers\ProveedorController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedores', 'C:\\Users\\famua\\OneDrive\\Escritorio\\Carlos TEC\\Fundamentos de BD\\Codeigniter\\Tienda_BD\\app\\Controllers\\ProveedorController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProveedorController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\famua\\OneDrive\\Escritorio\\Carlos TEC\\Fundamentos de BD\\Codeigniter\\Tienda_BD\\public\\index.php')
+CRITICAL - 2023-12-11 00:40:56 --> Undefined variable $proveedores
+in APPPATH\Controllers\ProveedorController.php on line 25.
+ 1 APPPATH\Controllers\ProveedorController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedores', 'C:\\Users\\famua\\OneDrive\\Escritorio\\Carlos TEC\\Fundamentos de BD\\Codeigniter\\Tienda_BD\\app\\Controllers\\ProveedorController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProveedorController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProveedorController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\famua\\OneDrive\\Escritorio\\Carlos TEC\\Fundamentos de BD\\Codeigniter\\Tienda_BD\\public\\index.php')

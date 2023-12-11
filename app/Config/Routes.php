@@ -33,3 +33,9 @@ $routes->get("productos/nuevo", 'ProductoController::create');
 
 $routes->post('productos', 'ProductoController::store');
 $routes->get('productos/edit', 'ProductoController::edit');
+
+
+$routes->get('proveedores', 'ProveedorController::index');
+$routes->get('proveedores/Crear', 'ProveedorController::create');
+$routes->post('proveedores', 'ProveedorController::store');
+$routes->get('proveedores/edit', 'ProveedorController::edit');
